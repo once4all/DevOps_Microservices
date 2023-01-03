@@ -11,7 +11,7 @@ dockerpath=kutinka123/predict-app:latest
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
 docker tag predict-app $dockerpath
-docker login --username kutinka123 --password "Tunx06)^!((!"
+docker login --username $DOCKER_USERNAME --password $DOCKER_PASSWORD
 # Step 3:
 # Push image to a docker repository
 docker push $dockerpath
