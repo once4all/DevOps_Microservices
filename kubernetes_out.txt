@@ -1,3 +1,21 @@
+padfoot@Pads-MacBook-Pro project-ml-microservice-kubernetes % ls
+Dockerfile		README.md		deployment.yaml		make_prediction.sh	output_txt_files	requirements.txt	run_kubernetes.sh	upload_docker.sh
+Makefile		app.py			docker_out.txt		model_data		pylint			run_docker.sh		service.yaml		ylint
+padfoot@Pads-MacBook-Pro project-ml-microservice-kubernetes % ./m
+zsh: no such file or directory: ./m
+padfoot@Pads-MacBook-Pro project-ml-microservice-kubernetes % ./make_prediction.sh
+Port: 80
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+padfoot@Pads-MacBook-Pro project-ml-microservice-kubernetes %
+
+
+
+
+
 padfoot@Pads-MacBook-Pro ~ % kubectl logs web-64d74cb96c-klv7m
  * Serving Flask app "app" (lazy loading)
  * Environment: production
