@@ -4,7 +4,7 @@ FROM python:3.7.3-stretch
 WORKDIR /application
 
 ## Step 2:
-COPY . app.py /application/
+COPY project-ml-microservice-kubernetes app.py /application/
 
 ## Step 3:
 # Install packages from requirements.txt
